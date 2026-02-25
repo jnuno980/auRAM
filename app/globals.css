@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: #0b0b0b;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.auram-scroll-snap {
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+
+.auram-section {
+  scroll-snap-align: start;
+}
+
