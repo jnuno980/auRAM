@@ -84,21 +84,39 @@ export default function Page() {
             className="space-y-10"
           >
             <p className="text-xs uppercase tracking-[0.3em] text-auram-white/50">
-              Missão auRAM
+              A Nossa Missão
             </p>
             <h2 className="text-3xl font-medium leading-tight md:text-5xl">
-              Hardware não precisa ser{" "}
-              <span className="text-auram-gold">neutro</span>.
+              Na auRAM, acreditamos que a performance tecnológica não deve ser
+              refém da volatilidade do mercado.
               <br />
-              Pode ser um{" "}
-              <span className="italic text-auram-gold">posicionamento ético</span>
-              .
+              A nossa missão é clara:{" "}
+              <span className="text-auram-gold">
+                combater a inflação dos preços de memória RAM
+              </span>{" "}
+              e garantir que o hardware de alta velocidade seja acessível a
+              todos.
             </h2>
             <p className="mx-auto max-w-2xl text-sm leading-relaxed text-auram-white/70">
-              Cada módulo auRAM é um compromisso físico: zero rastreamento
-              embutido, firmware auditável e uma política radicalmente simples —
-              a sua memória pertence a si, não aos modelos que o medem.
+              Trabalhamos diariamente para quebrar a barreira dos preços
+              inflacionados, utilizando parcerias estratégicas e uma gestão de
+              stock inteligente para proteger o seu orçamento. Não vendemos
+              apenas componentes; entregamos o poder de upgrade sem os custos
+              abusivos que o mercado tenta impor. Onde outros veem uma
+              oportunidade de lucro na escassez, nós vemos um compromisso com a
+              justiça tecnológica.
             </p>
+            <div className="mx-auto flex max-w-2xl flex-wrap items-center justify-center gap-4 text-[0.7rem] uppercase tracking-[0.25em] text-auram-white/45">
+              <span className="border border-white/10 px-4 py-2">
+                Acesso justo
+              </span>
+              <span className="border border-white/10 px-4 py-2">
+                Transparência total
+              </span>
+              <span className="border border-white/10 px-4 py-2">
+                Estabilidade de preços
+              </span>
+            </div>
           </motion.div>
         </div>
       </section>
