@@ -28,7 +28,7 @@ export function ProductSection({
       id={id}
       className="auram-section relative flex h-screen items-center bg-auram-black px-6"
     >
-      <div className="pointer-events-none absolute inset-0 bg-auram-radial-gold opacity-70" />
+      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_center,_rgba(212,175,55,0.22),_transparent_60%)]" />
 
       <div className="relative z-10 mx-auto flex h-full max-w-6xl flex-col justify-center gap-16 md:flex-row md:items-center">
         <motion.div

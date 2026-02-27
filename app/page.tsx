@@ -48,7 +48,7 @@ export default function Page() {
         id="hero"
         className="auram-section relative flex h-screen items-center bg-auram-black px-6"
       >
-        <div className="pointer-events-none absolute inset-0 bg-auram-radial-gold opacity-80" />
+        <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_center,_rgba(212,175,55,0.22),_transparent_60%)]" />
 
         <div className="relative z-10 mx-auto flex h-full max-w-6xl flex-col justify-center gap-16 md:flex-row md:items-center">
           <div className="flex-1 space-y-10">
@@ -99,7 +99,7 @@ export default function Page() {
         id="missao"
         className="auram-section relative flex h-screen items-center bg-auram-black px-6"
       >
-        <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_center,_rgba(212,175,55,0.18),_transparent_60%)]" />
+        <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_center,_rgba(212,175,55,0.22),_transparent_60%)]" />
 
         <div className="relative z-10 mx-auto flex h-full max-w-4xl flex-col items-center justify-center text-center">
           <motion.div
@@ -158,7 +158,7 @@ export default function Page() {
         id="etica"
         className="auram-section relative flex h-screen items-center bg-auram-black px-6"
       >
-        <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_bottom,_rgba(212,175,55,0.2),_transparent_65%)]" />
+        <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_center,_rgba(212,175,55,0.22),_transparent_60%)]" />
 
         <div className="relative z-10 mx-auto flex h-full max-w-5xl flex-col items-center justify-center text-center">
           <motion.div
