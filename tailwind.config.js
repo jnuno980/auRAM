@@ -8,9 +8,11 @@ module.exports = {
     extend: {
       colors: {
         auram: {
-          black: "#0B0B0B",
+          black: "#121619",
           gold: "#D4AF37",
-          white: "#F5F5F5"
+          white: "#F4F4F4",
+          slate: "#2C3238",
+          bronze: "#8E6F3E"
         }
       },
       fontFamily: {

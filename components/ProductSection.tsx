@@ -71,7 +71,7 @@ export function ProductSection({
               </span>
             </div>
 
-            <button className="relative overflow-hidden rounded-full border border-auram-gold/70 px-8 py-3 text-xs font-medium uppercase tracking-[0.25em] text-auram-white/90 transition-colors hover:bg-auram-gold hover:text-auram-black">
+            <button className="relative overflow-hidden rounded-full border border-auram-bronze px-8 py-3 text-xs font-medium uppercase tracking-[0.25em] text-auram-white/90 transition-all duration-300 bg-gradient-to-r from-auram-gold to-[#F9E076] hover:brightness-110 hover:shadow-auram-glow">
               <span>Reservar módulo</span>
             </button>
           </div>
