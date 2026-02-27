@@ -16,13 +16,14 @@ export function RamCard() {
 
       <div className="relative flex flex-col items-center gap-3 text-center">
         <span className="text-[0.6rem] uppercase tracking-[0.35em] text-auram-white/60">
-          Série Fundadora
+          Linha auRAM
         </span>
-        <span className="bg-gradient-to-r from-auram-gold via-auram-white to-auram-gold bg-clip-text text-3xl font-semibold text-transparent md:text-4xl">
-          auRAM Prime
+        <span className="bg-gradient-to-r from-auram-gold via-yellow-200 to-auram-gold bg-clip-text text-3xl font-semibold text-transparent md:text-4xl">
+          au
+          <span className="text-transparent">RAM</span>
         </span>
         <span className="text-[0.65rem] uppercase tracking-[0.25em] text-auram-white/40">
-          Memória para Humanos. Não para Algoritmos.
+          Aumente a sua memória com aura
         </span>
       </div>
 

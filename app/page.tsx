@@ -67,9 +67,9 @@ export default function Page() {
                 <span className="text-auram-gold">Não para Algoritmos.</span>
               </h1>
               <p className="max-w-xl text-sm leading-relaxed text-auram-white/70">
-                auRAM é a primeira linha de memória desenhada para proteger a
-                sua atenção, o seu tempo e o seu silêncio digital. Hardware
-                cinemático para um futuro menos ruidoso.
+                auRAM é a linha de memória que une circuitos dourados a uma aura
+                de proteção: desempenho alto, estética cinematográfica e respeito
+                absoluto pelo seu tempo e orçamento.
               </p>
             </motion.div>
 
