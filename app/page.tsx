@@ -87,24 +87,23 @@ export default function Page() {
               A Nossa Missão
             </p>
             <h2 className="text-3xl font-medium leading-tight md:text-5xl">
-              Na auRAM, acreditamos que a performance tecnológica não deve ser
-              refém da volatilidade do mercado.
+              Performance humana,
               <br />
-              A nossa missão é clara:{" "}
               <span className="text-auram-gold">
-                combater a inflação dos preços de memória RAM
-              </span>{" "}
-              e garantir que o hardware de alta velocidade seja acessível a
-              todos.
+                sem resgate pela volatilidade do mercado.
+              </span>
             </h2>
             <p className="mx-auto max-w-2xl text-sm leading-relaxed text-auram-white/70">
-              Trabalhamos diariamente para quebrar a barreira dos preços
-              inflacionados, utilizando parcerias estratégicas e uma gestão de
-              stock inteligente para proteger o seu orçamento. Não vendemos
-              apenas componentes; entregamos o poder de upgrade sem os custos
-              abusivos que o mercado tenta impor. Onde outros veem uma
-              oportunidade de lucro na escassez, nós vemos um compromisso com a
-              justiça tecnológica.
+              Na auRAM, acreditamos que a performance tecnológica não deve ser
+              refém da volatilidade do mercado. A nossa missão é clara: combater
+              a inflação dos preços de memória RAM e garantir que o hardware de
+              alta velocidade seja acessível a todos. Trabalhamos diariamente
+              para quebrar a barreira dos preços inflacionados, utilizando
+              parcerias estratégicas e uma gestão de stock inteligente para
+              proteger o seu orçamento. Não vendemos apenas componentes;
+              entregamos o poder de upgrade sem os custos abusivos que o mercado
+              tenta impor. Onde outros veem uma oportunidade de lucro na
+              escassez, nós vemos um compromisso com a justiça tecnológica.
             </p>
             <div className="mx-auto flex max-w-2xl flex-wrap items-center justify-center gap-4 text-[0.7rem] uppercase tracking-[0.25em] text-auram-white/45">
               <span className="border border-white/10 px-4 py-2">
