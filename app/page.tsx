@@ -14,7 +14,8 @@ const productSections = [
     description:
       "Memória sem dissipador exagerado, focada em fiabilidade e baixo custo. Ideal para dar uma segunda vida a máquinas que ainda têm muito para dar.",
     price: "19,99€ (8GB) / 34,99€ (16GB)",
-    note: "No mercado comum, estas memórias sobem de preço quando os chips são desviados para servidores de IA."
+    note: "No mercado comum, estas memórias sobem de preço quando os chips são desviados para servidores de IA.",
+    image: "/auram-noob-ddr4-8-16gb.png"
   },
   {
     id: "auram-pro",
@@ -23,7 +24,8 @@ const productSections = [
     focus: "Gamers que não querem pagar 'taxa de luxo'.",
     description:
       "Inclui um dissipador de calor em alumínio dourado inspirado no ouro (Au), preparado para sessões longas sem dramatizar o preço final.",
-    price: "42,00€ (16GB Kit) / 78,00€ (32GB Kit)"
+    price: "42,00€ (16GB Kit) / 78,00€ (32GB Kit)",
+    image: "/auram-pro-ddr4-gaming-16-32gb.png"
   },
   {
     id: "auram-hacker",
@@ -34,7 +36,8 @@ const productSections = [
     description:
       "Módulos DDR5 de ponta pensados para criadores, developers e entusiastas. Tecnologia de última geração, reservada exclusivamente para pessoas físicas.",
     price: "55,00€ (16GB) / 99,00€ (32GB)",
-    note: "No mercado atual, DDR5 é geralmente 20% a 30% mais caro devido à escassez criada pela corrida à IA."
+    note: "No mercado atual, DDR5 é geralmente 20% a 30% mais caro devido à escassez criada pela corrida à IA.",
+    image: "/auram-hacker-ddr5-16-32gb.png"
   }
 ];
 
