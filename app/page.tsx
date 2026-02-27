@@ -201,6 +201,204 @@ export default function Page() {
           </motion.div>
         </div>
       </section>
+
+      {/* PROJETO EMPRESARIAL */}
+      <section
+        id="projeto"
+        className="auram-section relative flex h-screen items-stretch bg-auram-black px-6"
+      >
+        <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_center,_rgba(212,175,55,0.22),_transparent_60%)]" />
+
+        <div className="relative z-10 mx-auto flex h-full w-full max-w-6xl flex-col gap-8 py-28 md:py-32">
+          <div className="space-y-3">
+            <p className="text-[0.7rem] uppercase tracking-[0.35em] text-auram-white/50">
+              Projeto Empresarial
+            </p>
+            <h2 className="text-2xl font-semibold tracking-tight text-auram-white md:text-3xl">
+              auRAM — Excelência tecnológica para a humanidade,
+              <span className="text-auram-gold"> equidade no acesso para todos.</span>
+            </h2>
+          </div>
+
+          <div className="grid flex-1 gap-8 overflow-hidden rounded-3xl border border-white/10 bg-black/50 p-6 text-sm text-auram-white/75 backdrop-blur-md md:grid-cols-[minmax(0,1.3fr)_minmax(0,1fr)] md:p-8">
+            <div className="space-y-6 overflow-y-auto pr-2">
+              <div className="space-y-2">
+                <h3 className="text-xs font-semibold uppercase tracking-[0.3em] text-auram-white/60">
+                  1. Identidade institucional
+                </h3>
+                <p>
+                  <span className="font-semibold text-auram-white">Designação social:</span>{" "}
+                  auRAM — fusão entre o símbolo químico do ouro (Au) e o acrónimo
+                  tecnológico RAM (Random Access Memory).
+                </p>
+                <p>
+                  <span className="font-semibold text-auram-white">Lema corporativo:</span>{" "}
+                  &quot;Excelência Tecnológica para a Humanidade, Equidade no Acesso
+                  para Todos.&quot;
+                </p>
+                <p>
+                  A identidade visual representa um módulo de memória dourado, protegido
+                  por uma barreira geométrica que simboliza a salvaguarda do consumidor
+                  e a resistência à especulação de mercado.
+                </p>
+              </div>
+
+              <div className="space-y-2">
+                <h3 className="text-xs font-semibold uppercase tracking-[0.3em] text-auram-white/60">
+                  2. Descrição da organização
+                </h3>
+                <p>
+                  A auRAM é uma entidade tecnológica sediada em Santarém, dedicada à
+                  montagem e distribuição ética de memórias RAM. Nasce da constatação de
+                  que a ascensão da IA desvia produção de semicondutores e inflaciona
+                  preços para utilizadores domésticos e profissionais.
+                </p>
+                <p>
+                  A empresa adota uma política de venda restritiva, excluindo grandes
+                  conglomerados de IA e entidades especulativas, para garantir que o
+                  meio académico, entusiastas e profissionais locais tenham acesso a
+                  hardware de alto desempenho a custos otimizados.
+                </p>
+              </div>
+
+              <div className="space-y-2">
+                <h3 className="text-xs font-semibold uppercase tracking-[0.3em] text-auram-white/60">
+                  3. Recursos humanos e funções
+                </h3>
+                <ul className="space-y-1 pl-4 text-[0.9rem]">
+                  <li>
+                    <span className="font-semibold text-auram-white">
+                      Direção Executiva (CEO):
+                    </span>{" "}
+                    coordena o projeto, gere parcerias com fabricantes e define as
+                    diretrizes éticas, garantindo o combate à inflação tecnológica.
+                  </li>
+                  <li>
+                    <span className="font-semibold text-auram-white">
+                      Direção de Operações Técnicas (CTO):
+                    </span>{" "}
+                    supervisiona o Laboratório SMT, assegura conformidade JEDEC e a
+                    transição DDR4 → DDR5.
+                  </li>
+                  <li>
+                    <span className="font-semibold text-auram-white">
+                      Gabinete de Triagem e Verificação Ética:
+                    </span>{" "}
+                    valida pedidos de compra (NIF, cartão de estudante, etc.) para
+                    impedir absorção de stock por algoritmos ou infraestruturas de IA em
+                    larga escala.
+                  </li>
+                  <li>
+                    <span className="font-semibold text-auram-white">
+                      Responsável de Sustentabilidade e Relações Locais:
+                    </span>{" "}
+                    gere economia circular, retoma de hardware e ligação à comunidade de
+                    Santarém.
+                  </li>
+                </ul>
+              </div>
+
+              <div className="space-y-2">
+                <h3 className="text-xs font-semibold uppercase tracking-[0.3em] text-auram-white/60">
+                  5. Comunicação e marketing
+                </h3>
+                <p>
+                  A auRAM aposta em marketing de defesa do consumidor, expondo o impacto
+                  da IA nos preços e reforçando a mensagem &quot;Tecnologia por Humanos,
+                  para Humanos&quot;.
+                </p>
+                <p>
+                  A marca constrói presença orgânica em redes sociais com conteúdo
+                  educativo (instalação e otimização de RAM) e ativações locais em
+                  escolas e institutos de Santarém, com diagnósticos gratuitos de
+                  hardware.
+                </p>
+              </div>
+            </div>
+
+            <div className="space-y-6 overflow-y-auto pl-0 md:pl-4">
+              <div className="space-y-2">
+                <h3 className="text-xs font-semibold uppercase tracking-[0.3em] text-auram-white/60">
+                  4. Portefólio auRAM
+                </h3>
+                <ul className="space-y-2 pl-4 text-[0.9rem]">
+                  <li>
+                    <span className="font-semibold text-auram-gold">
+                      auRAM &quot;Noob&quot; (DDR4 Standard):
+                    </span>{" "}
+                    revitalização de estações académicas e administrativas — 8GB / 16GB
+                    3200MHz, 19,99€ / 34,99€.
+                  </li>
+                  <li>
+                    <span className="font-semibold text-auram-gold">
+                      auRAM &quot;Pro&quot; Edition (DDR4 Gaming):
+                    </span>{" "}
+                    foco em gaming e edição de vídeo — kits 16GB / 32GB 3600MHz, com
+                    dissipador dourado, 42€ / 78€.
+                  </li>
+                  <li>
+                    <span className="font-semibold text-auram-gold">
+                      auRAM &quot;Hacker&quot; (DDR5 Next‑Gen):
+                    </span>{" "}
+                    DDR5 16GB / 32GB 5200MHz+, reservada a pessoas singulares, 55€ /
+                    99€.
+                  </li>
+                </ul>
+              </div>
+
+              <div className="space-y-2">
+                <h3 className="text-xs font-semibold uppercase tracking-[0.3em] text-auram-white/60">
+                  6. Ética e responsabilidade social
+                </h3>
+                <ul className="space-y-2 pl-4 text-[0.9rem]">
+                  <li>
+                    <span className="font-semibold text-auram-white">
+                      Moratória de venda corporativa:
+                    </span>{" "}
+                    bloqueio deliberado de compras em massa associadas a grandes
+                    data‑centers.
+                  </li>
+                  <li>
+                    <span className="font-semibold text-auram-white">
+                      Programa &quot;RAM Cicla&quot;:
+                    </span>{" "}
+                    retoma de módulos obsoletos com crédito direto na compra de novos
+                    componentes.
+                  </li>
+                  <li>
+                    <span className="font-semibold text-auram-white">
+                      Inclusão tecnológica:
+                    </span>{" "}
+                    quota mensal a preço de custo para estudantes bolseiros.
+                  </li>
+                  <li>
+                    <span className="font-semibold text-auram-white">
+                      Literacia em hardware:
+                    </span>{" "}
+                    workshops trimestrais abertos à comunidade.
+                  </li>
+                </ul>
+              </div>
+
+              <div className="space-y-2">
+                <h3 className="text-xs font-semibold uppercase tracking-[0.3em] text-auram-white/60">
+                  7. Cronograma & infraestruturas
+                </h3>
+                <p>
+                  Do mês 1 ao mês 4, o plano passa por: prospeção de fornecedores,
+                  instalação do laboratório e certificação, lançamento da plataforma
+                  online e, por fim, distribuição física e marketing de proximidade.
+                </p>
+                <p>
+                  A sede no Santarém Business Center integra laboratório SMT,
+                  bancadas de stress‑testing, centro de experiência e armazém logístico
+                  inteligente, garantindo rastreio de stock e transparência operacional.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }

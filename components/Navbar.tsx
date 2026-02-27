@@ -7,7 +7,8 @@ const navItems = [
   { label: "Início", href: "#hero" },
   { label: "Missão", href: "#missao" },
   { label: "Produtos", href: "#produtos" },
-  { label: "Ética", href: "#etica" }
+  { label: "Ética", href: "#etica" },
+  { label: "Projeto", href: "#projeto" }
 ];
 
 export function Navbar() {
