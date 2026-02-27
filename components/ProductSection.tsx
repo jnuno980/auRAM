@@ -7,6 +7,9 @@ type ProductSectionProps = {
   label: string;
   size: string;
   price: string;
+  focus: string;
+  description: string;
+  note?: string;
   index: number;
 };
 
@@ -15,6 +18,9 @@ export function ProductSection({
   label,
   size,
   price,
+  focus,
+  description,
+  note,
   index
 }: ProductSectionProps) {
   return (
@@ -42,16 +48,23 @@ export function ProductSection({
               <span className="block text-auram-white/60">{label}</span>
               <span className="block text-auram-gold">{size}</span>
             </h2>
-            <p className="max-w-md text-sm leading-relaxed text-auram-white/70">
-              Memória calibrada para humanos que exigem baixa latência, alta
-              integridade de dados e zero exploração algorítmica.
+            <p className="max-w-md text-[0.7rem] uppercase tracking-[0.25em] text-auram-white/45">
+              {focus}
             </p>
+            <p className="max-w-md text-sm leading-relaxed text-auram-white/70">
+              {description}
+            </p>
+            {note && (
+              <p className="max-w-md text-xs leading-relaxed text-auram-white/50 italic">
+                {note}
+              </p>
+            )}
           </div>
 
           <div className="flex items-center gap-8">
             <div className="flex items-baseline gap-2">
               <span className="text-xs uppercase tracking-[0.25em] text-auram-white/40">
-                a partir de
+                Preço auRAM
               </span>
               <span className="text-2xl font-medium text-auram-gold">
                 {price}

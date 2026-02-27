@@ -6,10 +6,36 @@ import { RamCard } from "../components/RamCard";
 import { ProductSection } from "../components/ProductSection";
 
 const productSections = [
-  { id: "ram-noob", label: "RAM NOOB", size: "8GB", price: "150€" },
-  { id: "ram-pro", label: "RAM PRO", size: "16GB", price: "167€" },
-  { id: "ram-god", label: "RAM GOD", size: "32GB", price: "267€" },
-  { id: "ram-hacker", label: "RAM HACKER", size: "67GB", price: "678€" }
+  {
+    id: "auram-noob",
+    label: 'auRAM "Noob" (DDR4)',
+    size: "8GB / 16GB • 3200MHz",
+    focus: "Upgrade para PCs de estudo e trabalho que estão lentos.",
+    description:
+      "Memória sem dissipador exagerado, focada em fiabilidade e baixo custo. Ideal para dar uma segunda vida a máquinas que ainda têm muito para dar.",
+    price: "19,99€ (8GB) / 34,99€ (16GB)",
+    note: "No mercado comum, estas memórias sobem de preço quando os chips são desviados para servidores de IA."
+  },
+  {
+    id: "auram-pro",
+    label: 'auRAM "Pro" Edition (DDR4 Gaming)',
+    size: "16GB (2x8GB) / 32GB (2x16GB) • 3600MHz",
+    focus: "Gamers que não querem pagar 'taxa de luxo'.",
+    description:
+      "Inclui um dissipador de calor em alumínio dourado inspirado no ouro (Au), preparado para sessões longas sem dramatizar o preço final.",
+    price: "42,00€ (16GB Kit) / 78,00€ (32GB Kit)"
+  },
+  {
+    id: "auram-hacker",
+    label: 'auRAM "Hacker" (DDR5 Next‑Gen)',
+    size: "16GB / 32GB • 5200MHz+",
+    focus:
+      "PCs de última geração — a mesma tecnologia que o mercado tenta reservar para IA e data centers.",
+    description:
+      "Módulos DDR5 de ponta pensados para criadores, developers e entusiastas. Tecnologia de última geração, reservada exclusivamente para pessoas físicas.",
+    price: "55,00€ (16GB) / 99,00€ (32GB)",
+    note: "No mercado atual, DDR5 é geralmente 20% a 30% mais caro devido à escassez criada pela corrida à IA."
+  }
 ];
 
 export default function Page() {
