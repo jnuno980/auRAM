@@ -87,13 +87,13 @@ export function ProductSection({
           transition={{ duration: 0.8, ease: "easeOut", delay: 0.15 }}
           className="flex-1"
         >
-          <div className="relative mx-auto flex aspect-[4/5] max-w-sm items-center justify-center overflow-hidden rounded-3xl border border-white/10 bg-gradient-to-b from-white/10 via-black to-black shadow-auram-glow">
-            <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_rgba(212,175,55,0.2),_transparent_65%)]" />
+          <div className="relative mx-auto aspect-[3/5] max-w-sm overflow-hidden rounded-[32px] border border-auram-gold/20 bg-auram-black/90 shadow-auram-glow">
+            <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_rgba(212,175,55,0.28),_transparent_70%)]" />
             <Image
               src={image}
               alt={label}
               fill
-              className="object-contain px-4"
+              className="relative z-10 h-full w-full object-contain"
               sizes="(min-width: 1024px) 320px, 70vw"
             />
           </div>
