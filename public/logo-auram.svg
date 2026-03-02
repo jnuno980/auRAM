@@ -1,0 +1,31 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" rx="128" fill="#050608"/>
+  <radialGradient id="auramGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+    gradientTransform="translate(256 120) rotate(90) scale(260)">
+    <stop stop-color="#D4AF37" stop-opacity="0.9" />
+    <stop offset="1" stop-color="#050608" stop-opacity="0" />
+  </radialGradient>
+  <circle cx="256" cy="220" r="190" fill="url(#auramGlow)" opacity="0.85" />
+
+  <!-- Aura arcs -->
+  <path d="M132 150C168 112 209 96 256 96C303 96 344 112 380 150" stroke="#F5F5F5" stroke-width="8"
+    stroke-linecap="round" />
+  <path d="M144 170C177 135 214 120 256 120C298 120 335 135 368 170" stroke="#D4AF37" stroke-width="10"
+    stroke-linecap="round" />
+
+  <!-- RAM outline -->
+  <rect x="220" y="150" width="72" height="220" rx="8" stroke="#D4AF37" stroke-width="6" fill="none" />
+  <path d="M232 170H280V190H232V170Z" fill="#D4AF37" fill-opacity="0.5" />
+  <path d="M232 206H244V300H232" stroke="#D4AF37" stroke-width="3" stroke-linecap="round" />
+  <path d="M248 206H260V270H248" stroke="#D4AF37" stroke-width="3" stroke-linecap="round" />
+  <path d="M264 206H276V285H264" stroke="#D4AF37" stroke-width="3" stroke-linecap="round" />
+  <path d="M280 206H292V310H280" stroke="#D4AF37" stroke-width="3" stroke-linecap="round" />
+
+  <!-- RAM pins -->
+  <rect x="220" y="368" width="12" height="20" fill="#D4AF37" />
+  <rect x="236" y="368" width="12" height="20" fill="#D4AF37" />
+  <rect x="252" y="368" width="12" height="20" fill="#D4AF37" />
+  <rect x="268" y="368" width="12" height="20" fill="#D4AF37" />
+  <rect x="284" y="368" width="12" height="20" fill="#D4AF37" />
+</svg>
+
